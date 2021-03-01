@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  ruby_dev:
+    build: .
+    container_name: ruby_container
+    volumes:
+      - ./src:/usr/src/app
