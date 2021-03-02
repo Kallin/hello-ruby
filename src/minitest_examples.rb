@@ -1,3 +1,5 @@
+require 'minitest/spec'
+
 class Meme
     def i_can_has_cheezburger?
       "OHAI!"

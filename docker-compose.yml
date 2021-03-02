@@ -5,4 +5,4 @@ services:
     build: .
     container_name: ruby_container
     volumes:
-      - ./src:/usr/src/app
+      - .:/usr/src/app
